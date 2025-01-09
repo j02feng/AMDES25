@@ -1,4 +1,4 @@
-/*------------------Navigation------------------------ */
+/* ------------------ Navigation ---- */
 
 $(window).scroll(function() {
 
@@ -26,7 +26,7 @@ $('.main_nav li a').click(function() {
 });
 
 
-/*---------Smooth Scrolling ------------------------------- */
+/* --------- Smooth Scrolling --------------- */
 
 jQuery(document).ready(function($) {
 
@@ -50,7 +50,7 @@ jQuery(document).ready(function($) {
 
 
 
-/*------------------Navigation------------------------ */
+
 
 (function() {
   var animation = {
