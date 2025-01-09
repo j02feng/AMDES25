@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300");
 url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
 
-/* -------Base Styles ------------- */
+/*  Base Styles   */
 * {
   margin-top: 0;
 }
@@ -31,7 +31,7 @@ body {
 
 
 
-/*  ------ MAIN NTU IMG ------*/
+/*   MAIN NTU IMG */
 .hero {
   height: 60vh;
   background: url("https://c0.wallpaperflare.com/preview/477/348/53/handrail-banister-building-architecture.jpg") no-repeat fixed center; 
@@ -60,7 +60,7 @@ h1 {
 
 
 
-/*----- CONTENT -----*/
+/* CONTENT  */
 
 #sidebar {
     width:20%;
@@ -94,7 +94,7 @@ h1 {
 
 
 
-/*--------countdown ---------*/
+/*  countdown   */
 .holder {
   position: absolute;
   background-color: #ffffff;
@@ -172,8 +172,7 @@ h1 {
 
 
 
-/* Grid
-********************************************************************* */  
+/* Grid */  
 .container {
 	position: relative;
 	width: 100%;
@@ -191,16 +190,14 @@ h1 {
 
 
 
-/* Links
------------ */
+/*  Links   */
 a {
 	color: #1EAEDB;
 }
 a:hover {
 	color: #0FA0CE;
 }
-/* Header Section
-********************************************************************* */
+/* Header Section */
 
 
 header {
@@ -413,8 +410,7 @@ nav ul a:hover {
 
 
 
-/* Footer Section
-********************************************************************* */
+/*   Footer Section     */
 footer {
 	min-height: 120px;
 	padding: 40px 0 40px 0;
@@ -431,8 +427,7 @@ footer p {
 
 
 
-/* Lists
-********************************************************************* */
+/*   Lists     */
 ul {
 	list-style: circle inside;
 }
@@ -450,8 +445,9 @@ ul ul, ul ol, ol ol, ol ul {
 li {
 	margin-bottom: 1rem;
 }
-/* Spacing
-********************************************************************* */
+
+
+/* Spacing    */
 button, .button {
 	margin-bottom: 1rem;
 }
@@ -463,8 +459,7 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 }
 
 
-/* Clearing
-********************************************************************* */
+/* Clearing   */
 .container:after, .row:after, .u-cf {
 	content: "";
 	display: table;
@@ -477,9 +472,10 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 
 
 
-/* ----- ANIMATTION ------ */
+/*  ANIMATTION  */
 
-/*animated scroll arrow animation*/
+/* animated scroll arrow animation */
+
 @-webkit-keyframes fade_move_down {
  0% {
 -webkit-transform:translate(0, -10px) rotate(45deg);
@@ -526,7 +522,7 @@ opacity: 0;
 
 
 
-/* ------- RESPONSIVE to screen sizes --------------- */
+/*  RESPONSIVE to screen sizes  */
 
 /* For devices larger than 400px */
 @media (min-width: 400px) {
